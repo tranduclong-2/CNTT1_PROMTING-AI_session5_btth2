@@ -50,3 +50,93 @@ Câu cuối cùng đã viết
 Mục đang triển khai
 
 Hãy tiếp tục cho đến khi hoàn thành bài viết 1000–1500 từ.
+
+#OUTPUT
+1. Khách Hàng Mục Tiêu ( Target Audience )
+
+| Nhóm khách hàng | Đặc điểm |
+|---|---|
+| Doanh nghiệp vừa và nhỏ (SME) | Có lượng khách hàng ổn định nhưng thiếu nhân viên CSKH. |
+| Doanh nghiệp thương mại điện tử | Thường xuyên nhận câu hỏi về sản phẩm, đơn hàng và vận chuyển. |
+| Doanh nghiệp dịch vụ | Cần tư vấn và hỗ trợ khách hàng nhanh chóng. |
+| Bộ phận Marketing và CSKH | Muốn tự động hóa việc trả lời và chăm sóc khách hàng. |
+
+2. Nhu cầu khách hàng (Customer Needs)
+
+- Phản hồi khách hàng nhanh chóng.
+
+- Hỗ trợ khách hàng 24/7.
+
+- Giảm khối lượng công việc cho nhân viên.
+
+- Tiết kiệm chi phí vận hành.
+
+- Nâng cao chất lượng chăm sóc khách hàng.
+
+3. Những vấn đề khách hàng gặp phải (Pain Points)
+
+| STT | Pain Points | Giải pháp từ AI Chatbot |
+|---|---|---|
+| 1 | Khách hàng phải chờ lâu để được phản hồi. | Tự động trả lời câu hỏi nhanh chóng. |
+| 2 | Nhân viên CSKH quá tải khi có nhiều yêu cầu. | Tự động xử lý các câu hỏi thường gặp. |
+| 3 | Khách hàng liên hệ ngoài giờ làm việc nhưng không được hỗ trợ. | Hỗ trợ khách hàng 24/7. |
+| 4 | Chi phí thuê nhân viên chăm sóc khách hàng cao. | Giảm công việc thủ công và tối ưu nguồn lực. |
+| 5 | Câu trả lời giữa các nhân viên thiếu thống nhất. | Chuẩn hóa nội dung tư vấn theo dữ liệu doanh nghiệp cung cấp. |
+| 6 | Khó quản lý số lượng lớn yêu cầu từ khách hàng. | Hỗ trợ phân loại và xử lý yêu cầu tự động. |
+
+
+4.Lợi ích nổi bật (Key Benefits)
+
+- Tiết kiệm thời gian: Tự động xử lý các câu hỏi phổ biến.
+
+- Hỗ trợ liên tục: Có thể phản hồi khách hàng ngoài giờ làm việc.
+
+- Tối ưu nhân sự: Giúp nhân viên tập trung vào những yêu cầu phức tạp.
+
+- Nâng cao trải nghiệm: Giảm thời gian chờ đợi của khách hàng.
+
+- Tăng tính nhất quán: Hỗ trợ cung cấp thông tin theo nội dung đã thiết lập.
+
+5. Dữ liệu đầu ra JSON
+Đây là dữ liệu được sử dụng làm đầu vào bắt buộc cho Prompt 2.
+
+```JSON
+{
+  "target_audience": [
+    "Doanh nghiệp vừa và nhỏ",
+    "Doanh nghiệp thương mại điện tử",
+    "Doanh nghiệp dịch vụ",
+    "Bộ phận Marketing và CSKH"
+  ],
+  "customer_needs": [
+    "Phản hồi nhanh",
+    "Hỗ trợ 24/7",
+    "Giảm tải nhân viên",
+    "Tiết kiệm chi phí",
+    "Nâng cao trải nghiệm khách hàng"
+  ],
+  "pain_points": [
+    "Phản hồi khách hàng chậm",
+    "Nhân viên CSKH quá tải",
+    "Không hỗ trợ ngoài giờ",
+    "Chi phí nhân sự cao",
+    "Thông tin tư vấn thiếu thống nhất",
+    "Khó quản lý nhiều yêu cầu"
+  ],
+  "solutions": [
+    "Tự động trả lời câu hỏi",
+    "Xử lý câu hỏi thường gặp",
+    "Hỗ trợ liên tục 24/7",
+    "Tối ưu nguồn lực nhân sự",
+    "Chuẩn hóa nội dung tư vấn",
+    "Phân loại yêu cầu khách hàng"
+  ],
+  "key_benefits": [
+    "Tiết kiệm thời gian",
+    "Hỗ trợ khách hàng liên tục",
+    "Tối ưu nhân sự",
+    "Nâng cao trải nghiệm",
+    "Tăng tính nhất quán"
+  ]
+}
+``` 
